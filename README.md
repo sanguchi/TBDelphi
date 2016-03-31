@@ -14,13 +14,13 @@ Libraries:
 Done:
 
 
-[x]getUpdates
+* getUpdates
 
 
-[x]getMe
+* getMe
 
 
-[x]sendMessage (not fully implemented)
+* sendMessage (not fully implemented)
 
 
-[x]Types Updates/Chat/User/Message
+* Types Updates/Chat/User/Message

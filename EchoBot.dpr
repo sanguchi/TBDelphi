@@ -42,9 +42,9 @@ begin
   { TODO : Check if token file exists. }
   Running := True;
   O := 0;
-  WriteLn('Write Bot token and press Enter.');
-  ReadLn(Token);
-  AssignFile(F, 'test.txt');
+  //WriteLn('Write Bot token and press Enter.');
+  //ReadLn(Token);
+  AssignFile(F, 'token.txt');
   Reset(F);
   ReadLn(F, Token);
   Bot := TBotApi.Create(Token);
